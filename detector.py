@@ -19,7 +19,7 @@ while True:
         elif id == 2:
             name = "PM modi"
         elif id == 3:
-            name = "Indu"
+            name = "Unknown"
         cv2.putText(img, name, (x, y+h), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,244,5), 1)
         
             
